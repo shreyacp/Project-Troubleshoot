@@ -108,26 +108,25 @@ section {
 {% endblock %}
 
 {% block content %}
-
 <section>
   <div class="imgBx">
   </div>
   <img src="templates/logo.jpg">
   <div class="contentBx">
     <div class="formBx">
-      <h4>Sign Up</h4>
+      <h2>Sign Up</h2>
       <form action="/signup" method="POST">
         <div class="inputBx">
           <span>Username</span>
-          <input type="text" name="username" placeholder="Your username">
+          <input type="text" name="username" placeholder="Enter your username">
         </div>
         <div class="inputBx">
           <span>Email</span>
-          <input type="email" name="email" placeholder="Your email">
+          <input type="email" name="email" placeholder="Enter your email">
         </div>
         <div class="inputBx">
           <span>Password</span>
-          <input type="password" name="password" placeholder="Enter password">
+          <input type="password" name="password" placeholder="Enter your password">
         </div>
         <div class="inputBx">
           <input type="submit" value="Sign Up">
